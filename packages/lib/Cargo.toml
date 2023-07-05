@@ -9,7 +9,7 @@ repository = "https://github.com/nissy-dev/dioxus-free-icons"
 readme = "../../README.md"
 
 [dependencies]
-dioxus = { version = "0.3.1" }
+dioxus = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "a75223cd8895ca6733164ddf03de314c91c1dbab"}
 
 [features]
 font-awesome-brands = []
